@@ -1,0 +1,42 @@
+.StatisticsList {
+  position: relative;
+  display: flex;
+  width: 700px;
+  height: 110px;
+  list-style-type: none;
+}
+.StatisticsListItem {
+  position: absolute;
+  top: -54px;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  color: #057bc9;
+  margin: 0;
+}
+
+.StatisticsListItemNumber {
+  color: #cdcdcd93;
+  font-size: 40px;
+  font-weight: 200;
+}
+.StatisticsListItem:nth-child(1) {
+  left: 24px;
+}
+.StatisticsListItem:nth-child(2) {
+  left: 254px;
+}
+
+.StatisticsListItem:nth-child(3) {
+  left: 484px;
+}
+
+.StatisticsListItem:nth-child(4) {
+  top: 40px;
+  left: 150px;
+}
+
+.StatisticsListItem:nth-child(5) {
+  top: 40px;
+  left: 350px;
+}

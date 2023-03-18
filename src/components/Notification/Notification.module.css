@@ -1,0 +1,17 @@
+.NotificationInscription {
+ position: relative;
+ display: flex;
+ width: 700px;
+ height: 110px;
+ justify-content: center;
+}
+
+.NotificationInscription__tit {
+ position: absolute;
+ display: grid;
+ font-size: 24px;
+ font-weight: 300;
+ font-style: italic;
+ color: #057bc9;
+ bottom: 3px;
+}
