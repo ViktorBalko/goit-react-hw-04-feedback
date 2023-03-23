@@ -1,0 +1,62 @@
+.FeedbackButtons__section {
+  display: grid;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.FeedbackButtons__item {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.FeedbackSection__title {
+  display: inline-flex;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 200;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  color: #494b4be6;
+}
+.FeedbackButtons__button {
+  display: block;
+  width: 175px;
+  height: 60px;
+  background: linear-gradient(#000000d3, #0000005f, #000000d3);
+  border: 1px solid #e0dada2b;
+  margin: 0 30px;
+  border-radius: 0.8em;
+  color: #ffffff51;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 300;
+  transition: all ease-out 300ms;
+}
+
+.FeedbackButtons__button:hover {
+  transition: all 300ms;
+  transform: scale(1.2);
+  font-size: 12px;
+  border-radius: 1.1em;
+  border: 1px solid #161616;
+}
+
+.FeedbackButtons__button:nth-child(1):hover {
+  color: #026b2cb0;
+  background: linear-gradient(#03641057, black, #0000008a);
+}
+
+.FeedbackButtons__button:nth-child(2):hover {
+  color: #02436bb0;
+  background: linear-gradient(#03456450, black, #0000008a);
+}
+
+.FeedbackButtons__button:nth-child(3):hover {
+  color: #6b0202b0;
+  background: linear-gradient(#6403035b, black, #0000008a);
+}

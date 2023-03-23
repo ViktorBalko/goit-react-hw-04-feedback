@@ -12,7 +12,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #eaedef;
+  background-color: #000000;
 }
 
 @import url('https://fonts.cdnfonts.com/css/gravidaz?styles=152100');
@@ -23,9 +23,17 @@ code {
 }
 
 .HomeworkTitle {
-  color: #ffffff85;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   font-style: italic;
-  padding: 10px 20px;
+  padding-left: 25px;
+  color: #494b4bef;
+}
+.StatisticsBox {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  margin: 0;
+  padding: 0;
 }

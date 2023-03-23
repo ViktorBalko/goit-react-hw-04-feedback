@@ -1,23 +1,13 @@
-.FeedbackSection {
- display: grig;
- width: 700px;
- height: 300px;
- align-items: center;
- justify-content: space-between;
- border: 0.3px solid #e0dada61;
- border-radius: 1.2em;
- margin: 100px auto;
- justify-content: center;
- align-items: center;
- background: linear-gradient(#000000c2, #000000, #1211112f);
- border: 1px solid #e0dada23;
-}
-
-.FeedbackSection__title {
- display: block;
- padding: 20px 40px 32px;
- font-size: 30px;
- font-weight: 200;
- font-style: italic;
- color: #057bc9;
+.MainSection {
+  display: flex;
+  width: 750px;
+  height: 400px;
+  margin: 100px auto;
+  border-radius: 1.5em;
+  border: none;
+  background: #06070717;
+  box-shadow: 0 8px 32px 0 #3d3d3d72;
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+  border: 1px solid #c1c0c018;
 }

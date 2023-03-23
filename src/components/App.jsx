@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Statistics from './Statistics/Statistics';
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import FeedbackButtons from './FeedbackButtons/FeedbackButtons';
 import Section from './Section/Section';
 import Notification from './Notification/Notification';
 
@@ -35,26 +35,28 @@ export function App() {
   };
 
   return (
-    <div>
-      <Section title="Please leave feedback">
-        <FeedbackOptions
-          options={['good', 'neutral', 'bad']}
-          onLeaveFeedback={leaveFeedback}
-        />
-      </Section>
-
-      <Section title="Statistics">
-        {countTotalFeedback() ? (
-          <Statistics
-            good={good}
-            neutral={neutral}
-            bad={bad}
-            total={countTotalFeedback()}
-            positivePercent={countPositivePercent()}
+    <div className="AppBox">
+      <h1 className="HomeworkTitle">React HW4 ~ Feedback</h1>
+      <Section>
+        <div className="FeedbackBox">
+          <FeedbackButtons
+            options={['good', 'neutral', 'bad']}
+            onLeaveFeedback={leaveFeedback}
           />
-        ) : (
-          <Notification message="No feedback given. Be first" />
-        )}
+          <div className="StatisticsBox">
+            {countTotalFeedback() ? (
+              <Statistics
+                good={good}
+                neutral={neutral}
+                bad={bad}
+                total={countTotalFeedback()}
+                positivePercent={countPositivePercent()}
+              />
+            ) : (
+              <Notification message="No feedback given" />
+            )}
+          </div>
+        </div>
       </Section>
     </div>
   );
