@@ -35,8 +35,8 @@
   text-transform: uppercase;
   font-weight: 600;
   transition: all ease-out 350ms;
-  box-shadow: 0px 15px 49px 0 #483f559b;
-  background: linear-gradient(#483e4e93, #0000005f, #090909eb);
+  box-shadow: 0px 15px 49px 0 #584d669b;
+  background: linear-gradient(#483e4e93, #000000b8, #000000);
 }
 
 .FeedbackButtons__button:hover {
@@ -50,17 +50,17 @@
 .FeedbackButtons__button:nth-child(1):hover {
   color: #026b2cf6;
   box-shadow: 0px 15px 49px 0 #00581f6a;
-  background: linear-gradient(#00480b80, black, #0000008a);
+  background: linear-gradient(#00480b80, black, #000000);
 }
 
 .FeedbackButtons__button:nth-child(2):hover {
   color: #02436bf6;
   box-shadow: 0px 15px 49px 0 #0042586a;
-  background: linear-gradient(#0148697a, black, #0000008a);
+  background: linear-gradient(#0148697a, black, #000000);
 }
 
 .FeedbackButtons__button:nth-child(3):hover {
   color: #6b0202f3;
   box-shadow: 0px 15px 49px 0 #7e01166a;
-  background: linear-gradient(#64030378, black, #0000008a);
+  background: linear-gradient(#64030378, black, #000000);
 }

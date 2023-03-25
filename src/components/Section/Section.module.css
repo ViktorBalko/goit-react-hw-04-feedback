@@ -6,9 +6,9 @@
   margin: 100px auto;
   border-radius: 1.5em;
   border: none;
-  background: #000000cc;
-  box-shadow: -5px 5px 99px 0 #3f232ac7;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  background: #000000b7;
+  box-shadow: -5px 5px 99px 0 #2b233fc7;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 1px solid #8672904b;
 }
